@@ -142,8 +142,6 @@
                     <?php } } ?>
                    
 
-
-    
                     </ul>   
                 </nav>
                 <a href="https://wa.me/919423979339?text=I%20seen%20your%20source%20code%20on%20sourcecodester" target="_blank"class="float"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" ><i class="fab fa-whatsapp fa-7x" style="font-size:4em;"></i></a>
