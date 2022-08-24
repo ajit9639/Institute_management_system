@@ -6,7 +6,7 @@
              $row_footer = mysqli_fetch_array($result_footer);
              ?>
              <?php //echo $row_footer['footer'];?>
-            <footer class="footer" style="  position: fixed;left: 0;bottom: 0;width: 100%;text-align: center;"> © 2019 All rights reserved<a href=""> UMS</a>
+            <footer class="footer" style="color:#fff;background: #012648;position: fixed;left: 0;bottom: -14px;width: 100%;text-align: center;"> © 2022 All rights reserved<a href=""> Institute Management System</a>
   <!-- before changing this footer you must have authors permission -->
 </footer> 
             

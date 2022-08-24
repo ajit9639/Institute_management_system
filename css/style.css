@@ -237,7 +237,7 @@ h6 {
 }
 
 .page-wrapper {
-    background: #fafafa;
+    background: #f0f0f0;
     padding-bottom: 60px;
 }
 
@@ -1269,6 +1269,7 @@ h6.h1 {
 .header .top-navbar {
     min-height: 50px;
     padding: 0 15px 0 0;
+    background: #012648;
 }
 
 .header .top-navbar .dropdown-toggle:after {
@@ -1861,8 +1862,8 @@ textarea {
 
 .sidebar-nav ul li a.active {
     /*color: #1976d2;*/
-    background: #85CE36 !important;
-    color: #f9fdff;
+    background: #ffffff !important;
+    color: #012648;
     font-weight: 500;
 }
 
@@ -1925,21 +1926,21 @@ textarea {
     height: 48px;
     font-weight: 400;
     /* background: #fff;*/
-    background: #85CE36 !important;
+    background: #aeaeae !important;
     color: #1976d2;
 }
 
 .sidebar-nav>ul>li.active>a {
     padding: 6%;
     /*color: #1976d2;*/
-    color: #fdfeff;
+    color: #fff;
     font-weight: 500;
     border-left: 3px solid #fff;
 }
 
 .sidebar-nav>ul>li.active>a i {
     /*color: #1976d2;*/
-    color: #f2f3f5;
+    color: #012648;
 }
 
 .sidebar-nav .has-arrow {
@@ -5639,7 +5640,7 @@ footer p {
 }
 
 .widget-ten span i {
-    color: #ffffff;
+    color: #000;
     opacity: 0.5;
 }
 
@@ -5648,7 +5649,7 @@ footer p {
 }
 
 .widget-ten p {
-    color: #ffffff !important;
+    color: #000 !important;
     opacity: 0.75;
 }
 
@@ -6466,7 +6467,7 @@ tbody tr th {
 
 tbody tr td {
     font-family: Nunito, sans-serif;
-    color: #99abb4;
+    color: #606060;
 }
 
 tbody tr td:last-child {

@@ -8,16 +8,18 @@ if(isset($_POST['btn_login']))
 {
 $unm = $_POST['email'];
 
-$passw = hash('sha256', $_POST['password']);
+$pass = $_POST['password'];
+// $passw = hash('sha256', $_POST['password']);
 
-function createSalt()
-{
-    return '2123293dsj2hu2nikhiljdsd';
-}
-$salt = createSalt();
-$pass = hash('sha256', $salt . $passw);
-
- $sql = "SELECT * FROM admin WHERE email='" .$unm . "' and password = '". $pass."'";
+// function createSalt()
+// {
+//     return '2123293dsj2hu2nikhiljdsd';
+// }
+// $salt = createSalt();
+// $pass = hash('sha256', $passw);
+// echo "SELECT * FROM `admin` WHERE `email`='$unm' AND `password` = '$pass'";
+// exit;
+ $sql = "SELECT * FROM `admin` WHERE `email`='$unm' AND `password` = '$pass'";
     $result = mysqli_query($conn,$sql);
     $row  = mysqli_fetch_array($result);
     
@@ -77,13 +79,16 @@ else {?>
              $result_login = $conn->query($sql_login);
              $row_login = mysqli_fetch_array($result_login);
              ?>
-            <div class="container-fluid"  style="background-image: url('uploadImage/Logo/<?php echo $row_login['background_login_image'];?>');
+            <div class="container-fluid"  style="height:100vh;background-image: url('uploadImage/Logo/<?php echo $row_login['background_login_image'];?>');
  background-color: #2e6583;">
                 <div class="row justify-content-center">
                     <div class="col-lg-4">
                         <div class="login-content card">
                             <div class="login-form">
-                                <center><img src="uploadImage/Logo/1.png" style="width:50%;"></center><br>
+                                <center>
+                                  <!-- <img src="uploadImage/Logo/lgo.png" style="width:50%;"> -->
+                                  <h3>LOGIN </h3>
+                                </center><br>
                                 <form method="POST">
                                     <div class="form-group">
                                         <label>Email address</label>
@@ -93,14 +98,14 @@ else {?>
                                         <label>Password</label>
                                         <input type="password" name="password" class="form-control" placeholder="Password" required="">
                                     </div>
-                                    <div class="checkbox">
+                                    <!-- <div class="checkbox">
                                         <label>
                                                 <input type="checkbox"> Remember Me
                                             </label>
                                            <label class="pull-right">
                                                 <a href="forgot_password.php">Forgotten Password?</a>
                                            </label>   
-                                    </div>
+                                    </div> -->
                                     <button type="submit" name="btn_login" class="btn btn-primary btn-flat m-b-30 m-t-30">Sign in</button>
                                   
                                 </form>

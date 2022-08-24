@@ -117,16 +117,16 @@
                             </ul>
                         </li>
 
-                         <li> <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-cog"></i><span class="hide-menu">Setting</span></a>
+                         <!-- <li> <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-cog"></i><span class="hide-menu">Setting</span></a>
                             <ul aria-expanded="false" class="collapse">
                                <?php //if($_SESSION["username"]=='user' || $_SESSION["username"]=='admin') { ?>
                                <li><a href="manage_website.php">Appearance Management</a></li>
                              <?php //} ?>
                               <li><a href="email_config.php">Email Management</a></li>
                                
-                               <!--  <li><a href="sms_config.php">SMS Management</a></li> -->
+                                <li><a href="sms_config.php">SMS Management</a></li>
                             </ul>
-                        </li> 
+                        </li>  -->
                     <?php } ?>
 
                   <?php if(isset($useroles)){  if(in_array("manage_attendence",$useroles)){ ?> 
@@ -144,13 +144,18 @@
 
                     </ul>   
                 </nav>
-                <a href="https://wa.me/919423979339?text=I%20seen%20your%20source%20code%20on%20sourcecodester" target="_blank"class="float"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" ><i class="fab fa-whatsapp fa-7x" style="font-size:4em;"></i></a>
+
+                <!-- <a href="https://wa.me/919423979339?text=I%20seen%20your%20source%20code%20on%20sourcecodester" target="_blank"class="float">
+                    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" >
+                    <i class="fab fa-whatsapp fa-7x" style="font-size:4em;"></i></a>
 <div class="label-container success"><div class="label-text">Contact me by WhatsApp</div><i class="fa fa-play label-arrow"></i></div>
 
 
 
-<a href="https://m.me/freelancer.from.india" target="_blank"class="float2"><link rel="stylesheet" ><i class="fab fa-facebook-messenger fa-7x" style="font-size:4em;"></i></a>
-<div class="label-container2" id="hideMe"><div class="label-text2">Contact me by Messenger</div><i class="fa fa-play label-arrow2" ></i></div>
+<a href="https://m.me/freelancer.from.india" target="_blank"class="float2"><link rel="stylesheet" >
+<i class="fab fa-facebook-messenger fa-7x" style="font-size:4em;"></i></a>
+<div class="label-container2" id="hideMe">
+    <div class="label-text2">Contact me by Messenger</div><i class="fa fa-play label-arrow2" ></i></div> -->
             </div>
            
         </div>
