@@ -79,6 +79,7 @@ else {?>
              $result_login = $conn->query($sql_login);
              $row_login = mysqli_fetch_array($result_login);
              ?>
+             
             <div class="container-fluid"  style="height:100vh;background-image: url('uploadImage/Logo/<?php echo $row_login['background_login_image'];?>');
  background-color: #2e6583;">
                 <div class="row justify-content-center">
